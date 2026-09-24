@@ -1,4 +1,4 @@
-package in.mecw.entity;
+package in.ty;
 
 
 import java.util.ArrayList;
