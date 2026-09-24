@@ -2,7 +2,7 @@ package in.mecw.entity;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
 
 import javax.persistence.EntityManagerFactory;
@@ -23,7 +23,7 @@ public class ApplicationDriver {
         d.setDepartmentId(1);
         d.setDepartmentName("CSE");
         d.setLocation("salem");
-        List<Course> courses = new ArrayList<Course>();
+        List<Course> course = new ArrayList<Course>();
         Course c1 = new Course(1, "DataScience", 4);
         Course c2 = new Course(2, "AIML", 4);
         Course c3 = new Course(3, "OOSE", 4);
